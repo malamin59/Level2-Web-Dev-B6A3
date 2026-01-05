@@ -3,3 +3,4 @@ vehicles.vehicle_name FROM bookings
 INNER JOIN users ON bookings.user_id = users.user_id
 INNER JOIN vehicles
 ON bookings.vehicle_id = vehicles.vehicle_id
+
